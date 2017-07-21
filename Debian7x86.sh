@@ -229,4 +229,4 @@ echo "Script By: Hajimxmiku12"
 echo "squid proxy port: 8080"
 echo "server host ip: $myip2
 echo "==============================================="
-echo ""
+echo "that's all"
