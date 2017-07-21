@@ -126,7 +126,7 @@ rm /etc/nginx/sites-enabled
 rm /etc/nginx/sites-available
 wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/hajimxmiku/debian-setup-wizard/master/nginx.conf"
 mkdir -p /etc/nginx/sites/main
-echo "<center><h1>Sunan | Explore Network Unlimited</h1></center>" > /etc/nginx/sites/main/index.html
+
 wget -O /etc/nginx/conf.d/sites.conf "https://raw.githubusercontent.com/hajimxmiku/debian-setup-wizard/master/sites.conf"
 service nginx restart
 chown -R www-data:www-data /etc/nginx/sites/main
