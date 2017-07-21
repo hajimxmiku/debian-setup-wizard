@@ -1,0 +1,6 @@
+#
+#!/bin/sh
+#Restore IPTables Change
+#by: hajimxmiku12
+#
+iptables-restore < /etc/newiptables.conf
