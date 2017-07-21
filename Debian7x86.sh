@@ -30,7 +30,8 @@ if [[ ! -e /dev/net/tun ]]; then
 	echo "The TUN device is not available
 You need to enable TUN before running this script"
 	exit 3
-
+	
+fi
 # Sanity check
 if [[ $(id -g) != "0" ]] ; then
     die "❯❯❯ Script must be run as root."
